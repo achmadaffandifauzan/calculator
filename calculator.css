@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Segoe UI';
+    color: #557567;
+}
+
+#papan {
+    height: 450px;
+    width: 400px;
+    background-color: #f6fff8;
+    justify-content: center;
+    border: 2px solid #a4c3b2;
+    border-radius: 5px;
+}
+
+#resultNum {
+    height: 15%;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+    padding-right: 3%;
+
+
+}
+
+#inputNum {
+    color: #f6fff8;
+    height: 20%;
+    width: 97%;
+    font-size: 38px;
+    background-color: #91b1a0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+    padding-right: 3%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    word-wrap: break-word;
+}
+
+#papanKetik {
+    height: 65%;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    user-select: none;
+    font-size: larger;
+}
+
+
+.button {
+    height: 20%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #a4c3b2bd;
+    border-radius: 2px;
+}
+
+#modulo,
+#zero,
+#dot {
+    position: relative;
+    top: -20%;
+}
+
+#equal {
+    height: 40%;
+}
